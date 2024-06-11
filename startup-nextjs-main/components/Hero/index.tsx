@@ -42,7 +42,7 @@ const Hero = () => {
                   style={{cursor: 'pointer'}}
                 >
                   <Link
-                    href='/'
+                    href='/directions'
                     target="_blank"
                     rel="noopener noreferrer"
                   >
