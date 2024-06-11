@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 import { Metadata } from "next";
 
@@ -15,11 +16,21 @@ const DirectionsPage = () => {
             <p className="text-2xl text-dark italic m-5">
                 Join us for a day filled with love, laughter, and happily ever after.
             </p>
+            <div className="flex items-center justify-center">
+                <Image 
+                    src='/images/directions/tree.png'
+                    alt='palm tree'
+                    width={40}
+                />
+                <p className="text-xl">
+                    Le Palmier Venue
+                </p>
+            </div>
             <Link 
               href='https://maps.app.goo.gl/x7Dg9DmBwSGaWW8K8'
               target="_blank"
               rel='noopener noreferrer'
-              className="rounded-md bg-black text-white text-2xl md:text-lg p-4 mt-5 md:mt-2"
+              className="rounded-md bg-black text-white text-2xl md:text-lg p-4 mt-8 md:mt-4 ml-2"
             >
                 Get Directions
             </Link>

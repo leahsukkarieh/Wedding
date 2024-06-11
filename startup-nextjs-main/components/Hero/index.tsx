@@ -50,6 +50,12 @@ const Hero = () => {
                     <p>Rmeileh</p> 
                   </Link>
                 </p>
+                <Link
+                  href="/"
+                  className="block px-7 py-3 text-lg font-medium text-white bg-black rounded-md hover:opacity-70 mt-6 md:hidden"
+                >
+                  RSVP
+                </Link>
               </div>
             </div>
           </div>
