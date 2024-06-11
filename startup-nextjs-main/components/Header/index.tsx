@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import menuData from "./menuData";
 
 const Header = () => {
@@ -12,29 +12,13 @@ const Header = () => {
     setNavbarOpen(!navbarOpen);
   };
 
-  // Sticky Navbar
-  const [sticky, setSticky] = useState(false);
-  const handleStickyNavbar = () => {
-    if (window.scrollY >= 80) {
-      setSticky(true);
-    } else {
-      setSticky(false);
-    }
-  };
-  useEffect(() => {
-    window.addEventListener("scroll", handleStickyNavbar);
-  });
-
   const usePathName = usePathname();
 
   return (
     <>
       <header
-        className={`header left-0 top-0 z-40 flex w-full items-center ${
-          sticky
-            ? "fixed z-[9999] bg-white !bg-opacity-80 shadow-sticky backdrop-blur-sm transition"
-            : "absolute bg-transparent"
-        }`}
+        className="header left-0 top-0 z-40 flex w-full items-center absolute bg-transparent" 
+        style={{fontFamily: "Black Gold"}}
       >
         <div className="container">
           <div className="relative -mx-4 flex items-center justify-between">
@@ -88,10 +72,10 @@ const Header = () => {
                       <li key={index} className="group relative">
                         <Link
                           href={menuItem.path}
-                          className={`flex py-2 text-base lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 ${
+                          className={`flex py-2 text-dark text-xl border-black lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 ${
                             usePathName === menuItem.path
-                              ? "text-primary"
-                              : "text-dark hover:text-primary"
+                              ? "border-b-2"
+                              : "hover:border-b-2 border-opacity-70"
                           }`}
                         >
                           {menuItem.title}
@@ -104,7 +88,7 @@ const Header = () => {
               <div className="flex items-center justify-end pr-16 lg:pr-0">
                 <Link
                   href="/"
-                  className="hidden px-7 py-3 text-base font-medium text-dark hover:opacity-70 md:block"
+                  className="hidden px-7 py-3 text-lg font-medium text-white bg-black rounded-md hover:opacity-70 md:block"
                 >
                   RSVP
                 </Link>

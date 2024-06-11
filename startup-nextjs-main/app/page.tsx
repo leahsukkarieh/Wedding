@@ -1,4 +1,5 @@
 import ScrollUp from "@/components/Common/ScrollUp";
+import Countdown from "@/components/Countdown";
 import Hero from "@/components/Hero";
 import { Metadata } from "next";
 
@@ -13,6 +14,7 @@ export default function Home() {
     <>
       <ScrollUp />
       <Hero />
+      <Countdown />
     </>
   );
 }
