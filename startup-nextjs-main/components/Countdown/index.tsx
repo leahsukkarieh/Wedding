@@ -93,7 +93,7 @@ const DatesVenue = () => {
               </div>
             </div>
             <p
-             className="text-base !leading-relaxed text-blue md:text-md mt-4 italic"
+             className="text-lg !leading-relaxed text-blue md:text-md mt-4 italic"
               style={{ fontFamily: 'Libre Franklin, Helios Extended, sans-serif' }}
             >
               until our big day

@@ -23,7 +23,7 @@ const RSVPPage = () => {
                   <span className="hidden h-[1px] w-full bg-body-color/50 sm:block"></span>
                 </div>
                 <form action="https://formsubmit.co/talahamami@gmail.com" method="POST">
-                <div className="mb-8 w-1/2">
+                <div className="mb-8 w-full md:w-1/2">
                     <label
                     htmlFor="First Name"
                     className="mb-3 block text-lg text-dark"
@@ -37,7 +37,7 @@ const RSVPPage = () => {
                         required
                     />
                 </div>
-                <div className="mb-8 w-1/2">
+                <div className="mb-8 w-full md:w-1/2">
                     <label
                     htmlFor="Last Name"
                     className="mb-3 block text-lg text-dark"
