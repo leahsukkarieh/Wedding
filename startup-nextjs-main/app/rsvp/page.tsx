@@ -52,7 +52,6 @@ const RSVPPage = () => {
                     />
                 </div>
                 <input type="hidden" name="_subject" value="NEW RSVP"></input>
-                <input type="hidden" name="_cc" value="msaidkaissi@gmail.com"></input>
                 <div className="flex justify-start">
                     <button 
                         type='submit' 
