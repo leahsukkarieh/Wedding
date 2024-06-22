@@ -48,7 +48,7 @@ const DatesVenue = () => {
                 data-wow-delay=".1s"
                 style={{marginRight:"6px", width: "27%"}}
               >
-                <p className="text-center font-semibold text-3xl md:text-3xl text-black">
+                <p className="text-center font-semibold text-3xl text-black">
                   {countdown.days}
                 </p> 
                 <p className="text-center font-normal text-sm">
@@ -60,7 +60,7 @@ const DatesVenue = () => {
                 data-wow-delay=".1s"
                 style={{marginRight:"6px", width: "27%"}}
               >
-                <p className="text-center font-semibold text-3xl md:text-3xl text-black">
+                <p className="text-center font-semibold text-3xl text-black">
                   {countdown.hours}
                 </p> 
                 <p className="text-center font-normal text-sm">
@@ -72,7 +72,7 @@ const DatesVenue = () => {
                 data-wow-delay=".1s"
                 style={{marginRight:"6px", width: "27%"}}
               >
-                <p className="text-center font-semibold text-3xl md:text-3xl text-black">
+                <p className="text-center font-semibold text-3xl text-black">
                   {countdown.minutes}
                 </p> 
                 <p className="text-center font-normal text-sm">
@@ -84,7 +84,7 @@ const DatesVenue = () => {
                 data-wow-delay=".1s"
                 style={{marginRight:"6px", width: "27%"}}
               >
-                <p className="text-center font-semibold text-3xl md:text-3xl text-black">
+                <p className="text-center font-semibold text-3xl text-black">
                   {countdown.seconds}
                 </p> 
                 <p className="text-center font-normal text-sm">

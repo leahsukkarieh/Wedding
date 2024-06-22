@@ -19,26 +19,26 @@ const Hero = () => {
                 <Image 
                   src='/images/hero/first-page.jpg'
                   alt='couple'
-                  className="w-[65%] mb-8"
+                  className="2-[70%] lg:w-[65%] mb-8"
                 />
                 <h1 
-                  className="mb-5 text-3xl leading-tight text-black sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight"
+                  className="mb-5 leading-tight text-black text-4xl md:text-5xl"
                   >
-                  Mohammad 
+                  Mohamad 
                   <span style={{fontFamily: "Lucida"}}>{" "}&{" "}</span>
                   Tala
                 </h1>
-                <p className="mb-5 text-md !leading-relaxed text-dark sm:text-lg md:text-xl font-medium">
+                <p className="mb-5 text-lg !leading-relaxed text-dark md:text-xl font-medium">
                   together with their families, request the honor of your presence at the celebration of their marriage. 
                 </p>
-                <p className="text-xl !leading-relaxed text-dark sm:text-2xl md:text-3xl font-bold">
+                <p className="text-2xl !leading-relaxed text-dark md:text-3xl font-bold">
                   Saturday July 13, 2024 
                 </p>
-                <p className="text-xl !leading-relaxed text-dark sm:text-2xl md:text-3xl font-bold">
+                <p className="text-2xl !leading-relaxed text-dark md:text-3xl font-bold">
                   7:30 PM 
                 </p>
                 <p 
-                  className="text-md !leading-relaxed text-dark sm:text-lg md:text-xl font-medium"
+                  className="text-lg !leading-relaxed text-dark md:text-xl font-medium"
                   style={{cursor: 'pointer'}}
                 >
                   <Link
@@ -58,6 +58,7 @@ const Hero = () => {
           <Image 
               src='/images/hero/bottom.png'
               alt='hearts'
+              className="hidden lg:visible"
               width={200}
             />
           </div>
@@ -65,6 +66,7 @@ const Hero = () => {
           <Image 
               src='/images/hero/top.png'
               alt='circles'
+              className="hidden lg:visible"
               width={200}
           />
         </div>

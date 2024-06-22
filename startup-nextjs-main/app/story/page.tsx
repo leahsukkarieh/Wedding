@@ -26,7 +26,7 @@ const StoryPage = () => {
                 <Image
                   src='/images/story/one.jpg'
                   alt='photo of a couple'
-                  className="rounded-sm shadow-md hover:scale-105"
+                  className="rounded-sm shadow-md"
                   width={400}
                 />
             </div>
@@ -45,7 +45,7 @@ const StoryPage = () => {
               <Image
                 src='/images/story/two.jpg'
                 alt='photo of a couple'
-                className="rounded-sm shadow-md hover:scale-105"
+                className="rounded-sm shadow-md"
                 width={400}
               />
            </div>
@@ -64,7 +64,7 @@ const StoryPage = () => {
                 <Image
                   src='/images/story/three.jpg'
                   alt='photo of a couple'
-                  className="rounded-sm shadow-md hover:scale-105"
+                  className="rounded-sm shadow-md"
                   width={400}
                 />
             </div>
@@ -83,7 +83,7 @@ const StoryPage = () => {
                 <Image
                   src='/images/story/four.jpg'
                   alt='photo of a couple'
-                  className="rounded-sm shadow-md hover:scale-105"
+                  className="rounded-sm shadow-md"
                   width={400}
                 />
             </div>
@@ -102,7 +102,7 @@ const StoryPage = () => {
                 <Image
                   src='/images/story/five.jpg'
                   alt='photo of a couple'
-                  className="rounded-sm shadow-md hover:scale-105"
+                  className="rounded-sm shadow-md"
                   width={400}
                 />
             </div>
