@@ -19,5 +19,11 @@ const menuData: Menu[] = [
     path: "/directions",
     newTab: false,
   },
+  {
+    id: 4,
+    title: "RSVP",
+    path: "/directions",
+    newTab: false,
+  },
 ];
 export default menuData;

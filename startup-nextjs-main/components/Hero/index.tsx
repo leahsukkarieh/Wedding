@@ -16,6 +16,11 @@ const Hero = () => {
                 className="wow fadeInUp mx-auto max-w-[800px] text-center flex flex-col items-center"
                 data-wow-delay=".2s"
               >
+                <Image 
+                  src='/images/hero/first-page.jpg'
+                  alt='couple'
+                  className="w-[65%] mb-8"
+                />
                 <h1 
                   className="mb-5 text-3xl leading-tight text-black sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight"
                   >
@@ -23,13 +28,8 @@ const Hero = () => {
                   <span style={{fontFamily: "Lucida"}}>{" "}&{" "}</span>
                   Tala
                 </h1>
-                <Image 
-                  src='/images/hero/home-photo.avif'
-                  alt='couple'
-                  className="w-[80%] mb-8"
-                />
                 <p className="mb-5 text-md !leading-relaxed text-dark sm:text-lg md:text-xl font-medium">
-                  Together with their families, request the honor of your presence at the celebration of their marriage. 
+                  together with their families, request the honor of your presence at the celebration of their marriage. 
                 </p>
                 <p className="text-xl !leading-relaxed text-dark sm:text-2xl md:text-3xl font-bold">
                   Saturday July 13, 2024 
@@ -50,15 +50,23 @@ const Hero = () => {
                     <p>Rmeileh</p> 
                   </Link>
                 </p>
-                <Link
-                  href="/"
-                  className="block px-7 py-3 text-lg font-medium text-white bg-black rounded-md hover:opacity-70 mt-6 md:hidden"
-                >
-                  RSVP
-                </Link>
               </div>
             </div>
           </div>
+        </div>
+        <div className="absolute right-0 top-0 z-[-1] rotate-180">
+          <Image 
+              src='/images/hero/bottom.png'
+              alt='hearts'
+              width={200}
+            />
+          </div>
+          <div className="absolute bottom-0 left-0 z-[-1] -translate-x-[20%]">
+          <Image 
+              src='/images/hero/top.png'
+              alt='circles'
+              width={200}
+          />
         </div>
       </section>
     </>

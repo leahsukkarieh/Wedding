@@ -85,14 +85,6 @@ const Header = () => {
                   </ul>
                 </nav>
               </div>
-              <div className="flex items-center justify-end pr-16 lg:pr-0">
-                <Link
-                  href="/"
-                  className="hidden px-7 py-3 text-lg font-medium text-white bg-black rounded-md hover:opacity-70 md:block"
-                >
-                  RSVP
-                </Link>
-              </div>
             </div>
           </div>
         </div>
