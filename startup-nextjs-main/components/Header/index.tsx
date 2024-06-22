@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
@@ -27,9 +26,8 @@ const Header = () => {
                 href="/"
                 className="header-logo block w-full py-2"
               >
-                <Image
-                  src="/images/logo/tm-logo.png"
-                  alt="logo"
+                <img
+                  src='https://ik.imagekit.io/nh7xswppky/Wedding/images/logo/tm-logo.png?updatedAt=1719099100046'
                   width={140}
                   className="w-full"
                 />

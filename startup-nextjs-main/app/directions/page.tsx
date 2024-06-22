@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 
 import { Metadata } from "next";
 
@@ -17,10 +16,9 @@ const DirectionsPage = () => {
                 Join us for a day filled with love, laughter, and happily ever after.
             </p>
             <div className="flex items-center justify-center">
-                <Image 
-                    src='/images/directions/tree.png'
-                    alt='palm tree'
-                    width={40}
+                <img
+                  src='https://ik.imagekit.io/nh7xswppky/Wedding/images/directions/tree.png?updatedAt=1719099102342'
+                  width={40}
                 />
                 <p className="text-xl">
                     Le Palmier Venue

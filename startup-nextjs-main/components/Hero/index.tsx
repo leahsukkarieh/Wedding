@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 const Hero = () => {
@@ -16,10 +15,9 @@ const Hero = () => {
                 className="wow fadeInUp mx-auto max-w-[800px] text-center flex flex-col items-center"
                 data-wow-delay=".2s"
               >
-                <Image 
-                  src='/images/hero/first-page.jpg'
-                  alt='couple'
-                  className="2-[70%] lg:w-[65%] mb-8"
+                <img
+                  src='https://ik.imagekit.io/nh7xswppky/Wedding/images/hero/first-page.jpg?updatedAt=1719099104006'
+                  className="lg:w-[65%] mb-8"
                 />
                 <h1 
                   className="mb-5 leading-tight text-black text-4xl md:text-5xl"
@@ -55,20 +53,18 @@ const Hero = () => {
           </div>
         </div>
         <div className="absolute right-0 top-0 z-[-1] rotate-180">
-          <Image 
-              src='/images/hero/bottom.png'
-              alt='hearts'
-              className="hidden lg:visible"
-              width={200}
-            />
+          <img 
+            src='https://ik.imagekit.io/nh7xswppky/Wedding/images/hero/bottom.png?updatedAt=1719099099911'
+            className="invisible lg:visible"
+            width={200}
+          />
           </div>
           <div className="absolute bottom-0 left-0 z-[-1] -translate-x-[20%]">
-          <Image 
-              src='/images/hero/top.png'
-              alt='circles'
-              className="hidden lg:visible"
+            <img 
+              src='https://ik.imagekit.io/nh7xswppky/Wedding/images/hero/top.png?updatedAt=1719099102446'
+              className="invisible lg:visible"
               width={200}
-          />
+            />
         </div>
       </section>
     </>
