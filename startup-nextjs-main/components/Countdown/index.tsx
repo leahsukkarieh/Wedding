@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 
 const DatesVenue = () => {
-  const targetDate = new Date('2024-07-12T23:59:59');
+  const targetDate = new Date('2024-07-12T19:29:59');
 
   const calculateTimeRemaining = () => {
     const now = new Date();
